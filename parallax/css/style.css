@@ -192,12 +192,13 @@ a:hover {
 }
 /* MEDIA SCREEN */
 /* Desktops and laptops ----------- */
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1366px) {
   body {
     font-size: 100%;
   }
   #header .menu {
     margin: 14px 42px 0 4px;
+	float: right;
   }
   #header .menu li {
     float: left;
@@ -212,7 +213,7 @@ a:hover {
     top: 110px;
   }
   .page1 .background {
-    background: url(../images/home_small.jpg) no-repeat center 15%;
+    background: url(../images/home_small.jpg) no-repeat center top;
     margin-top: 48px;
   }
   .page2 .background {
@@ -257,8 +258,9 @@ a:hover {
     width: 100%;
     height: 50%;
     float: left;
-    margin: 10% 0 0;
     background-image: url(../images/op.png);
+	position: relative;
+	top: 30%;
   }
   .multimedia-info {
     float: left;
@@ -501,7 +503,7 @@ a:hover {
   }
 }
 /* Large screens ----------- */
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 1367px) {
   body {
     font-size: 120%;
   }
@@ -521,8 +523,8 @@ a:hover {
     top: 180px;
   }
   .page1 .background {
-    background: url(../images/home_big.jpg) no-repeat center center;
-    margin-top: 48px;
+    background: url(../images/home_big.jpg) no-repeat center top;
+	margin-top: 25px;
   }
   .page2 .background {
     background: url(../images/mult_big.jpg) no-repeat center center;
@@ -566,8 +568,9 @@ a:hover {
     width: 100%;
     height: 50%;
     float: left;
-    margin: 10% 0 0;
     background-image: url(../images/op.png);
+	position: relative;
+	top: 30%;
   }
   .multimedia-info {
     float: left;
@@ -608,11 +611,16 @@ a:hover {
   }
   .ff .ff-logo {
     background-image: url(../images/ff-logo-big.png);
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
     width: 200px;
-    height: 39px;
+    height: 40px;
     float: right;
-    margin: 40px 18px 0 0;
-  }
+	position: relative;
+	top: 50%;
+	margin-top: -20px;
+	margin-right: -10px;
+}
   .ff .stripe {
     background-image: url(../images/ff-stripe.png);
     width: 40px;
@@ -636,11 +644,15 @@ a:hover {
     float: left;
   }
   .wp .wp-logo {
-    background-image: url(../images/wp-logo-big.png);
-    width: 120px;
-    height: 132px;
-    float: right;
-    margin: 30px 18px 0 0;
+	background-image: url("http://localhost/parallax2/css/../images/wp-logo-big.png");
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 132px;
+	float: right;
+	position: relative;
+	top: 50%;
+	margin-top: -55px;
   }
   .wp .stripe {
     background-image: url(../images/wp-stripe.png);
@@ -666,10 +678,14 @@ a:hover {
   }
   .ad .ad-logo {
     background-image: url(../images/ad-logo-big.png);
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
     width: 120px;
     height: 142px;
     float: right;
-    margin: 30px 18px 0 0;
+	position: relative;
+	top: 50%;
+	margin-top: -55px;
   }
   .ad .stripe {
     background-image: url(../images/ad-stripe.png);
@@ -695,10 +711,14 @@ a:hover {
   }
   .bb .bb-logo {
     background-image: url(../images/bb-logo-big.png);
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
     width: 120px;
     height: 90px;
     float: right;
-    margin: 48px 18px 0 0;
+	position: relative;
+	top: 50%;
+	margin-top: -35px;
   }
   .bb .stripe {
     background-image: url(../images/bb-stripe.png);
