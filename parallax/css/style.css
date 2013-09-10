@@ -130,7 +130,7 @@ a:hover {
   background-image: url(../images/op.png);
   position: fixed;
   bottom: 100px;
-  right: 0;
+  right: -226px;
   z-index: 11;
   padding: 24px 6px 14px 12px;
   text-shadow: 1px 1px #303030;

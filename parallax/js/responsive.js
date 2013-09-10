@@ -82,6 +82,13 @@ $(function() {
 		$(this).stop(true, true).animate({"paddingLeft": "+=47px"}, "fast");
 	});
 	
+	//animación flechas scroll
+	$(".scroll-wrap").mouseenter(function(){
+		$(this).stop(true, true).animate({"right": "0px"}, "fast");
+	}).mouseleave(function(e){
+		$(this).stop(true, true).animate({"right": "-226px"}, "fast");
+	});
+	
 	//animacion menu
 	$('#header .menu a').click(function(e) {
 		
