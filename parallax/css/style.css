@@ -130,14 +130,14 @@ a:hover {
   background-image: url(../images/op.png);
   position: fixed;
   bottom: 100px;
-  right: -226px;
+  right: 0px;
   z-index: 11;
   padding: 24px 6px 14px 12px;
   text-shadow: 1px 1px #303030;
-  padding: 24px 6px 7px 12px;
+  padding: 22px 6px 7px 12px;
 }
 .scroll-wrap .arrow-up {
-  display: block;
+  display: none;
   background-image: url(../images/arrow_up.png);
   width: 60px;
   height: 20px;
@@ -145,7 +145,7 @@ a:hover {
   margin: -8px 14px 0 8px;
 }
 .scroll-wrap .arrow-down {
-  display: block;
+  display: none;
   background-image: url(../images/arrow_down.png);
   width: 60px;
   height: 20px;
@@ -154,7 +154,8 @@ a:hover {
 }
 .scroll-wrap .scroll-text {
   float: left;
-  margin: -2px 0 0;
+  /*margin: -2px 0 0;*/
+  margin: -5px 0 0 0;
 }
 #footer {
   height: 50px;

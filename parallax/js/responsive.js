@@ -84,9 +84,19 @@ $(function() {
 	
 	//animación flechas scroll
 	$(".scroll-wrap").mouseenter(function(){
-		$(this).stop(true, true).animate({"right": "0px"}, "fast");
-	}).mouseleave(function(e){
-		$(this).stop(true, true).animate({"right": "-226px"}, "fast");
+		$(".arrow-down").show(function(){
+			$(".arrow-down").fadeIn('slow');
+		});
+		$(".arrow-up").show(function(){
+			$(".arrow-up").fadeIn('slow');
+		});
+	}).mouseleave(function(){
+		$(".arrow-down").hide(function(){
+			$(".arrow-down").fadeOut('slow');
+		});
+		$(".arrow-up").hide(function(){
+			$(".arrow-up").fadeOut('slow');
+		});
 	});
 	
 	//animacion menu
