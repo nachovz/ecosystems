@@ -1,8 +1,8 @@
 $(function() {
 	var document_height = document.documentElement.clientHeight;
-	$('#footer').click(function(e) {
+	/*$('#footer').click(function(e) {
 	alert("Body height: "+$("body").height()+" document height: "+document_height+" windows height: "+$(window).height()+" scrolltop:"+$(window).scrollTop())
-	});
+	});*/
 	$(window).scroll(function() {
 		
 		// scroll para footer 
@@ -84,17 +84,17 @@ $(function() {
 	
 	//animación flechas scroll
 	$(".scroll-wrap").mouseenter(function(){
-		$(".arrow-down").show(function(){
-			$(".arrow-down").fadeIn('slow');
+		$(".arrow-down").stop(true, true).show(function(){
+			$(".arrow-down").stop(true, true).fadeIn('slow');
 		});
-		$(".arrow-up").show(function(){
-			$(".arrow-up").fadeIn('slow');
+		$(".arrow-up").stop(true, true).show(function(){
+			$(".arrow-up").stop(true, true).fadeIn('slow');
 		});
 	}).mouseleave(function(){
-		$(".arrow-down").hide(function(){
+		$(".arrow-down").stop(true, true).hide(function(){
 			$(".arrow-down").fadeOut('slow');
 		});
-		$(".arrow-up").hide(function(){
+		$(".arrow-up").stop(true, true).hide(function(){
 			$(".arrow-up").fadeOut('slow');
 		});
 	});

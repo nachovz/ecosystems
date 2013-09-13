@@ -139,20 +139,20 @@ ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 		<div class="layer background"></div>
 		<div class="content-full">
 			<div class="ff">
-				<div class="bg"><div class="ff-logo"></div></div>
-				<div class="stripe"></div>
+				<div class="ff-logo"></div>
+				
 			</div>
 			<div class="wp">
-				<div class="bg"><div class="wp-logo"></div></div>
-				<div class="stripe"></div>
+				<div class="wp-logo"></div>
+				
 			</div>
 			<div class="ad">
-				<div class="bg"><div class="ad-logo"></div></div>
-				<div class="stripe"></div>
+				<div class="ad-logo"></div>
+				
 			</div>
 			<div class="bb">
-				<div class="bg"><div class="bb-logo"></div></div>
-				<div class="stripe"></div>
+				<div class="bb-logo"></div>
+                
 			</div>
 		</div> 
 	</section>
