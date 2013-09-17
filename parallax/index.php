@@ -78,10 +78,10 @@ ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 		<ul class="menu">
 			<a href="#home"><li class="elem elem-home active">HOME</li></a><li class="bullet">&#9702;</li>
 			<a href="#multimedia"><li class="elem elem-mult">MULTIMEDIA</li></a><li class="bullet">&#9702;</li>
-			<a href="#sistemas-operativos"><li class="elem elem-op">OPERATING SYSTEMS</li></a><li class="bullet">&#9702;</li>
+			<a href="#sistemas-operativos"><li class="elem elem-op">SISTEMAS OPERATIVOS</li></a><li class="bullet">&#9702;</li>
 			<a href="#ecommerce"><li class="elem elem-ec">e COMMERCE</li></a><li class="bullet">&#9702;</li>
 			<a href="#app-market"><li class="elem elem-app">APP MARKET</li></a><li class="bullet">&#9702;</li>
-			<a href="#tiendas"><li class="elem elem-store">OUR STORES</li></a>
+			<a href="#tiendas"><li class="elem elem-store">TIENDAS</li></a>
 		</ul>
 	</section>
 	
