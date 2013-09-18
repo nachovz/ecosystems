@@ -68,10 +68,16 @@ ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
 <![endif]-->
 
+<!-- Loading con Imagen -->
+<script type="text/javascript">
+$(window).load(function() {
+	$(".loader").fadeOut("slow");
+})
+</script>
 </head>
 
 <body>
-	
+<div class="loader"></div>	
 	<section id="header">
 		<div class="title">TIENDAS TECNOLÓGICAS</div>
 		<div class="logo"><img src="images/logo.png" alt="ecosystems" /></div>
