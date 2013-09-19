@@ -837,8 +837,684 @@ a:hover {
     color: #4A45CA;
   }
 }
+
+@media only screen and (min-width : 1367px) and (max-width : 1600px) {
+  .loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../images/loading.jpg) 50% 50% no-repeat rgb(0,0,0);
+}
+  
+  body {
+    font-size: 120%;
+  }
+  #header .menu {
+    margin: 13px 42px 0 4px;
+  }
+  #header .menu li {
+    float: left;
+    padding: 4px 8px 17px;
+  }
+  #header .menu .bullet {
+    padding: 0;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  #redes {
+    top: 180px;
+  }
+  .page1 .background {
+    background: url(../images/home_big.jpg) no-repeat center top;
+	margin-top: 25px;
+  }
+  .page2 .background {
+    background: url(../images/mult_big.jpg) no-repeat center center;
+  }
+  .page3 .background {
+    background: url(../images/os_big.jpg) no-repeat center center;
+  }
+  .page4 .background {
+    background-color: #000;
+  }
+  .page5 .background {
+    background: url(../images/tienda_big.jpg) no-repeat center center;
+    padding-top: 100px;
+  }
+  .page6 .background {
+    background-color: #000;
+  }
+  .page .background {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+    background-size: cover;
+  }
+  .content {
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    z-index: 11;
+  }
+  .content-full {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    z-index: 11;
+  }
+  .multimedia-wrap {
+    width: 100%;
+    height: 50%;
+    float: left;
+    background-image: url(../images/op.png);
+	position: relative;
+	top: 30%;
+  }
+  .multimedia-info {
+    float: left;
+    width: 40%;
+    height: 100%;
+  }
+  .video-wrap {
+    float: left;
+    width: 60%;
+    height: 100%;
+  }
+  .multimedia-wrap .news {
+    width: 91%;
+    padding: 4% 4% 1%;
+  }
+  .multimedia-wrap .news .title {
+    font-weight: bold;
+    font-size: 26px;
+  }
+  .multimedia-wrap .news .text {
+    font-size: 22px;
+  }
+  .ff {
+    display: block;
+    position: absolute;
+    width: 59%;
+    height: 15%;
+    left: 0;
+    top: 19%;
+    z-index: 111;
+    background-color: transparent;
+  }
+  .ff .bg {
+    background-image: url(../images/ff-op.png);
+    width: 94%;
+    height: 100%;
+    float: left;
+  }
+  .ff .ff-logo {
+    background-image: url(../images/ff-logo-big.png);
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
+    width: 200px;
+    height: 40px;
+    float: right;
+	position: relative;
+	top: 50%;
+	margin-top: -20px;
+	margin-right: -10px;
+}
+  .ff .stripe {
+    background-image: url(../images/ff-stripe.png);
+    width: 40px;
+    height: 100%;
+    float: left;
+  }
+  .wp {
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 23%;
+    left: 0;
+    top: 26%;
+    z-index: 111;
+    background-color: transparent;
+  }
+  .wp .bg {
+    background-image: url(../images/wp-op.png);
+    width: 92%;
+    height: 100%;
+    float: left;
+  }
+  .wp .wp-logo {
+	background-image: url(../images/wp-logo-big.png);
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 132px;
+	float: right;
+	position: relative;
+	top: 100%;
+	margin-top: -55px;
+  }
+  .wp .stripe {
+    background-image: url(../images/wp-stripe.png);
+    width: 40px;
+    height: 100%;
+    float: left;
+  }
+  .ad {
+    display: block;
+    position: absolute;
+    width: 44%;
+    height: 22%;
+    left: 0;
+    top: 52%;
+    z-index: 111;
+    background-color: transparent;
+  }
+  .ad .bg {
+    background-image: url(../images/ad-op.png);
+    width: 92%;
+    height: 100%;
+    float: left;
+  }
+  .ad .ad-logo {
+    background-image: url(../images/ad-logo-big.png);
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
+    width: 120px;
+    height: 142px;
+    float: right;
+	position: relative;
+	top: 95%;
+	margin-top: -55px;
+  }
+  .ad .stripe {
+    background-image: url(../images/ad-stripe.png);
+    width: 40px;
+    height: 100%;
+    float: left;
+  }
+  .bb {
+    display: block;
+    position: absolute;
+    width: 56%;
+    height: 18%;
+    left: -5%;
+    top: 85%;
+    z-index: 111;
+    background-color: transparent;
+  }
+  .bb .bg {
+    background-image: url(../images/bb-op.png);
+    width: 94%;
+    height: 100%;
+    float: left;
+  }
+  .bb .bb-logo {
+    background-image: url(../images/bb-logo-big.png);
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
+    width: 120px;
+    height: 90px;
+    float: right;
+	position: relative;
+	top: 50%;
+	margin-top: -35px;
+  }
+  .bb .stripe {
+    background-image: url(../images/bb-stripe.png);
+    width: 40px;
+    height: 100%;
+    float: left;
+  }
+  .page4 .ecommerce-tx {
+    position: absolute;
+    top: 76px;
+    left: 68px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 102px;
+    font-weight: bold;
+  }
+  .page4 .soliciones-tx {
+    position: absolute;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 32px;
+    left: 680px;
+    top: 155px;
+  }
+  .page4 .compra-tx {
+    position: absolute;
+    top: 156px;
+    left: 12px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 92px;
+    font-weight: bold;
+    color: #7A7A7A;
+  }
+  .page4 .elige-tx {
+    position: absolute;
+    top: 248px;
+    left: 283px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+  }
+  .page4 .recomienda-tx {
+    position: absolute;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 84px;
+    left: 281px;
+    top: 312px;
+    color: #7A7A7A;
+  }
+  .page4 .cat-wrap {
+    position: absolute;
+    top: 70%;
+    left: 0;
+  }
+  .page4 .cat-wrap label {
+    font-size: 28px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  .page4 .cat-wrap ul {
+    list-style: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  .page4 .cat-wrap li {
+    float: left;
+    font-size: 24px;
+    padding: 6px 14px;
+    background-color: #2F42CE;
+    margin-right: 17px;
+  }
+  .page6 .franquicia {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 22%;
+    opacity: 0.12;
+    line-height: 215px;
+  }
+  .page6 .franquicia .subtitle {
+    position: absolute;
+    right: 60px;
+    top: 0;
+    height: 40px;
+    line-height: 37px;
+    font-size: 25px;
+  }
+  .page6 .franquicia .title {
+    font-size: 136px;
+    font-weight: bold;
+  }
+  .page6 .concepto-wrap {
+    width: 100%;
+    position: absolute;
+    top: 34%;
+  }
+  .page6 .concepto-wrap .title {
+    font-size: 43px;
+    font-weight: bold;
+  }
+  .page6 .concepto-wrap .text {
+    font-size: 21px;
+    text-align: justify;
+  }
+  .page6 .concepto-wrap .info {
+    font-size: 20px;
+    opacity: 0.3;
+    margin: 12px 0 2px;
+  }
+  .page6 .concepto-wrap .email {
+    font-size: 19px;
+    color: #4A45CA;
+  }
+}
+
 /* Large screens ----------- */
-@media only screen and (min-width: 1367px) {
+@media only screen and (min-width : 1601px) and (max-width : 1680px){
+  .loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../images/loading.jpg) 50% 50% no-repeat rgb(0,0,0);
+}
+  
+  body {
+    font-size: 120%;
+  }
+  #header .menu {
+    margin: 13px 42px 0 4px;
+  }
+  #header .menu li {
+    float: left;
+    padding: 4px 8px 17px;
+  }
+  #header .menu .bullet {
+    padding: 0;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  #redes {
+    top: 180px;
+  }
+  .page1 .background {
+    background: url(../images/home_big.jpg) no-repeat center top;
+	margin-top: 25px;
+  }
+  .page2 .background {
+    background: url(../images/mult_big.jpg) no-repeat center center;
+  }
+  .page3 .background {
+    background: url(../images/os_big.jpg) no-repeat center center;
+  }
+  .page4 .background {
+    background-color: #000;
+  }
+  .page5 .background {
+    background: url(../images/tienda_big.jpg) no-repeat center center;
+    padding-top: 100px;
+  }
+  .page6 .background {
+    background-color: #000;
+  }
+  .page .background {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+    background-size: cover;
+  }
+  .content {
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    z-index: 11;
+  }
+  .content-full {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    z-index: 11;
+  }
+  .multimedia-wrap {
+    width: 100%;
+    height: 50%;
+    float: left;
+    background-image: url(../images/op.png);
+	position: relative;
+	top: 30%;
+  }
+  .multimedia-info {
+    float: left;
+    width: 40%;
+    height: 100%;
+  }
+  .video-wrap {
+    float: left;
+    width: 60%;
+    height: 100%;
+  }
+  .multimedia-wrap .news {
+    width: 91%;
+    padding: 4% 4% 1%;
+  }
+  .multimedia-wrap .news .title {
+    font-weight: bold;
+    font-size: 26px;
+  }
+  .multimedia-wrap .news .text {
+    font-size: 22px;
+  }
+  .ff {
+    display: block;
+    position: absolute;
+    width: 59%;
+    height: 15%;
+    left: 0;
+    top: 19%;
+    z-index: 111;
+    background-color: transparent;
+  }
+  .ff .bg {
+    background-image: url(../images/ff-op.png);
+    width: 94%;
+    height: 100%;
+    float: left;
+  }
+  .ff .ff-logo {
+    background-image: url(../images/ff-logo-big.png);
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
+    width: 200px;
+    height: 40px;
+    float: right;
+	position: relative;
+	top: 60%;
+	margin-top: -20px;
+	margin-right: -10px;
+}
+  .ff .stripe {
+    background-image: url(../images/ff-stripe.png);
+    width: 40px;
+    height: 100%;
+    float: left;
+  }
+  .wp {
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 23%;
+    left: 0;
+    top: 26%;
+    z-index: 111;
+    background-color: transparent;
+  }
+  .wp .bg {
+    background-image: url(../images/wp-op.png);
+    width: 92%;
+    height: 100%;
+    float: left;
+  }
+  .wp .wp-logo {
+	background-image: url(../images/wp-logo-big.png);
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 132px;
+	float: right;
+	position: relative;
+	top: 100%;
+	margin-top: -55px;
+  }
+  .wp .stripe {
+    background-image: url(../images/wp-stripe.png);
+    width: 40px;
+    height: 100%;
+    float: left;
+  }
+  .ad {
+    display: block;
+    position: absolute;
+    width: 44%;
+    height: 22%;
+    left: 0;
+    top: 52%;
+    z-index: 111;
+    background-color: transparent;
+  }
+  .ad .bg {
+    background-image: url(../images/ad-op.png);
+    width: 92%;
+    height: 100%;
+    float: left;
+  }
+  .ad .ad-logo {
+    background-image: url(../images/ad-logo-big.png);
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
+    width: 120px;
+    height: 142px;
+    float: right;
+	position: relative;
+	top: 85%;
+	margin-top: -55px;
+  }
+  .ad .stripe {
+    background-image: url(../images/ad-stripe.png);
+    width: 40px;
+    height: 100%;
+    float: left;
+  }
+  .bb {
+    display: block;
+    position: absolute;
+    width: 56%;
+    height: 18%;
+    left: -5%;
+    top: 84%;
+    z-index: 111;
+    background-color: transparent;
+  }
+  .bb .bg {
+    background-image: url(../images/bb-op.png);
+    width: 94%;
+    height: 100%;
+    float: left;
+  }
+  .bb .bb-logo {
+    background-image: url(../images/bb-logo-big.png);
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
+    width: 120px;
+    height: 90px;
+    float: right;
+	position: relative;
+	top: 35%;
+	margin-top: -35px;
+  }
+  .bb .stripe {
+    background-image: url(../images/bb-stripe.png);
+    width: 40px;
+    height: 100%;
+    float: left;
+  }
+  .page4 .ecommerce-tx {
+    position: absolute;
+    top: 76px;
+    left: 68px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 102px;
+    font-weight: bold;
+  }
+  .page4 .soliciones-tx {
+    position: absolute;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 32px;
+    left: 680px;
+    top: 155px;
+  }
+  .page4 .compra-tx {
+    position: absolute;
+    top: 156px;
+    left: 12px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 92px;
+    font-weight: bold;
+    color: #7A7A7A;
+  }
+  .page4 .elige-tx {
+    position: absolute;
+    top: 248px;
+    left: 283px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+  }
+  .page4 .recomienda-tx {
+    position: absolute;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 84px;
+    left: 281px;
+    top: 312px;
+    color: #7A7A7A;
+  }
+  .page4 .cat-wrap {
+    position: absolute;
+    top: 70%;
+    left: 0;
+  }
+  .page4 .cat-wrap label {
+    font-size: 28px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  .page4 .cat-wrap ul {
+    list-style: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  .page4 .cat-wrap li {
+    float: left;
+    font-size: 24px;
+    padding: 6px 14px;
+    background-color: #2F42CE;
+    margin-right: 17px;
+  }
+  .page6 .franquicia {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 22%;
+    opacity: 0.12;
+    line-height: 215px;
+  }
+  .page6 .franquicia .subtitle {
+    position: absolute;
+    right: 60px;
+    top: 0;
+    height: 40px;
+    line-height: 37px;
+    font-size: 25px;
+  }
+  .page6 .franquicia .title {
+    font-size: 136px;
+    font-weight: bold;
+  }
+  .page6 .concepto-wrap {
+    width: 100%;
+    position: absolute;
+    top: 34%;
+  }
+  .page6 .concepto-wrap .title {
+    font-size: 43px;
+    font-weight: bold;
+  }
+  .page6 .concepto-wrap .text {
+    font-size: 21px;
+    text-align: justify;
+  }
+  .page6 .concepto-wrap .info {
+    font-size: 20px;
+    opacity: 0.3;
+    margin: 12px 0 2px;
+  }
+  .page6 .concepto-wrap .email {
+    font-size: 19px;
+    color: #4A45CA;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1681px) {
   .loader {
 	position: fixed;
 	left: 0px;
